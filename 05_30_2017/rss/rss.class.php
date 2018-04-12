@@ -79,3 +79,5 @@ class RSS
 		return $rss;
 	}
 }
+
+?>
