@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="zadluzenie.xsl"?>
+<wykaz_zadluzenia miejsce="Grodzisk Maz." data=" 2004-03-10" nazwa="Grunwaldzka">
+	<budynek rodzaj="blok mieszkalny">
+		<administrator>zarzad budynków mieszkalnych</administrator>
+		<email>info@grunwaldzka.com.pl</email>
+		<adres>
+			<kod>05-825</kod>
+			<miejscowosc>Grodzisk Maz</miejscowosc>
+			<ulica>    Grunwaldzka     </ulica>
+			<nr>7 </nr>
+		</adres>
+		<dluznicy>
+			<dluznik lp="1">
+				<lokal>3</lokal>
+				<imie> Jan</imie>
+				<nazwisko> Młocien</nazwisko>
+				<zadluzenie>245</zadluzenie>
+			</dluznik>
+			<dluznik lp="2">
+				<lokal>7</lokal>
+				<imie> Kamila</imie>
+				<nazwisko>Mirko</nazwisko>
+				<zadluzenie>124.12</zadluzenie>
+			</dluznik>
+			<dluznik lp="3">
+				<lokal>9</lokal>
+				<imie> Marain</imie>
+				<nazwisko> Kowal</nazwisko>
+				<zadluzenie>156.56</zadluzenie>
+			</dluznik>
+		</dluznicy>
+	</budynek>
+	<sporzadzone_przez>
+		<imie> Janina</imie>
+		<nazwisko> Kwiecien </nazwisko>
+		<stanowisko>Kierwonik Dzialu czynszow</stanowisko>
+		<na_prosbe>
+			<imie> Marian</imie>
+			<nazwisko> Biernacki</nazwisko>
+			<stanowisko>Dyrektor Zarzadu Budynkow Komunalnych</stanowisko>
+		</na_prosbe>
+	</sporzadzone_przez>
+</wykaz_zadluzenia>

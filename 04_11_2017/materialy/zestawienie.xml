@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<?xml-stylesheet type="text/xsl" href="zestawienie.xsl"?>
+<zestawienia>
+	<zestawienie typ="ks">
+		<okres>2004</okres>
+		<tytul>Zestawienie przychodow i rozchodow</tytul>
+	</zestawienie>
+	<zestawienie typ="ka">
+		<okres>2004</okres>
+		<tytul>wplywy na konto firmowe</tytul>
+	</zestawienie>
+	<zestawienie typ="ks">
+		<okres>2003</okres>
+		<tytul>Zestawienie przychodow i rozchodow</tytul>
+	</zestawienie>
+	<zestawienie typ="ka">
+		<okres>2003</okres>
+		<tytul>wplywy na konto firmowe</tytul>
+	</zestawienie>
+	<zestawienie typ="ma">
+		<okres>2004</okres>
+		<tytul>Atrakcyjnosc corocznych akcji promocyjnych</tytul>
+	</zestawienie>
+	<zestawienie typ="ka">
+		<okres>2004</okres>
+		<tytul>wplywy na konto firmowe</tytul>
+	</zestawienie>
+	<zestawienie typ="ka">
+		<okres>2001</okres>
+		<tytul>wplywy na konto firmowe</tytul>
+	</zestawienie>
+</zestawienia>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<!DOCTYPE lista SYSTEM "03_14_2017.dtd">
+
+<lista>
+	<dany_osobowy>
+		<imie nr="1">Andrii</imie>
+		<imie nr="2">Andrzej</imie>
+		<imie type="matki">Natalia</imie>
+		<imie type="ojca">Michał</imie>
+        <nazwisko type="rodowe">Banana</nazwisko>
+        <nazwisko>Zhezhel</nazwisko>
+		<data>
+			<rok>1813</rok>
+			<miesiac>11</miesiac>
+			<dzien>24</dzien>
+		</data>
+		<m_urodzenia>Warszawa</m_urodzenia>
+		<nip>009977553311</nip>
+		<pesel>4123453</pesel>
+		<plec>2</plec>
+		<stan>Młodzieniec</stan>
+		<nr_wpisu>65432324</nr_wpisu>
+    </dany_osobowy>
+	<adres>
+		<zameldowania>
+			<ulica>Pierwsza</ulica>
+			<dom>12</dom>
+			<lokal>13</lokal>
+			<miasto>Warszawa</miasto>
+			<kod>03477</kod>
+			<panstwo>Polskie</panstwo>
+		</zameldowania>
+		<zamieszkania>
+			<ulica>Heronima</ulica>
+			<dom>1</dom>
+			<lokal>22</lokal>
+			<miasto></miasto>
+			<kod>03554</kod>	
+		</zamieszkania>
+		<korespondercyjny>
+			<ulica>Druga</ulica>
+			<dom>11</dom>
+			<lokal>15</lokal>
+			<miasto>Lublin</miasto>
+			<kod>03421</kod>	
+		</korespondercyjny>
+	</adres>
+	<kontakt>
+		<tel type="1" nr="1">512000412</tel>
+		<tel type="1" nr="2">512000112</tel>
+		<tel type="2" nr="1">331241244</tel>
+		<mail>example@example.com</mail>
+
+	</kontakt>
+	<wyksztalcenie>
+		<tytul>1</tytul>
+		<ukonczone_uczelnie nr="1"></ukonczone_uczelnie>
+	</wyksztalcenie>
+	<jezyki_obce>
+		<jezyk nr="1" stopien="2">Angielski</jezyk>
+	</jezyki_obce>
+	<rodzaj_ukonczenej_aplikacji>4</rodzaj_ukonczenej_aplikacji>
+	<aktywnosc_zawodowa>7</aktywnosc_zawodowa>
+	<forma_wykonania_zawodu>5</forma_wykonania_zawodu>
+	<specjalizacja nr="1">I don't know</specjalizacja>
+	<kontakt_do_osoby>
+		<kancelaria>
+			<nazwa>Text</nazwa>
+			<ulica>Text</ulica>
+			<dom>11</dom>
+			<lokal>15</lokal>
+			<miasto>Lublin</miasto>
+			<kod>03421</kod>
+			<tel>12345543</tel>
+			<fax>65432345</fax>
+			<data_otwarcia>12:43:21</data_otwarcia>
+		</kancelaria>
+		<filia>
+			<nazwa>Text</nazwa>
+			<ulica>Text</ulica>
+			<dom>11</dom>
+			<lokal>15</lokal>
+			<miasto>Lublin</miasto>
+			<kod>03421</kod>
+			<tel>12345543</tel>
+			<fax>65432345</fax>
+			<data_otwarcia>12:43:21</data_otwarcia>
+			<data_wpisu>
+				<rok>1813</rok>
+				<miesiac>11</miesiac>
+				<dzien>24</dzien>
+			</data_wpisu>
+			<numer_rejestru>25364743</numer_rejestru>
+			<stan>2</stan>
+		</filia>
+		<mejsce_pracy>
+			<nazwa>Text</nazwa>
+			<ulica>Text</ulica>
+			<dom>11</dom>
+			<lokal>15</lokal>
+			<miasto>Lublin</miasto>
+			<kod>03421</kod>
+			<tel>12345543</tel>
+			<fax>65432345</fax>
+			<data_otwarcia>12:43:21</data_otwarcia>
+		</mejsce_pracy>
+	</kontakt_do_osoby>
+</lista>

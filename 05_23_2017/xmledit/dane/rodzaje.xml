@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rodzaje>
+	<rodzaj>
+		<id>1</id>
+		<nazwa>Kryminały</nazwa>
+	</rodzaj>
+  <rodzaj>
+		<id>2</id>
+		<nazwa>Thrillery</nazwa>
+	</rodzaj>
+  <rodzaj>
+		<id>3</id>
+		<nazwa>Sensacyjne</nazwa>
+	</rodzaj>
+  <rodzaj>
+		<id>4</id>
+		<nazwa>Horrory</nazwa>
+	</rodzaj>
+  <rodzaj>
+		<id>5</id>
+		<nazwa>Przygodowe</nazwa>
+	</rodzaj>
+  <rodzaj>
+		<id>6</id>
+		<nazwa>Fantasy</nazwa>
+	</rodzaj>
+  <rodzaj>
+		<id>7</id>
+		<nazwa>Romansidła</nazwa>
+	</rodzaj>
+  <rodzaj>
+		<id>8</id>
+		<nazwa>Historyczne</nazwa>
+	</rodzaj>
+<rodzaj><id>9</id><nazwa>Nudne</nazwa></rodzaj><rodzaj><id>11</id><nazwa>Normalne</nazwa></rodzaj><rodzaj><id>12</id><nazwa>Niezwykłe</nazwa></rodzaj></rodzaje>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<?xml-stylesheet type="text/xsl" href="cv.xsl"?>
+<cv>
+	<dane_osobowe>
+		<imie>Joanna</imie>
+		<nazwisko>Misiak</nazwisko>
+		<adres>
+			<ulica>Malczewskiego</ulica>
+			<numer>14</numer>
+			<kod>05-812</kod>
+			<miejscowosc>Warszawa</miejscowosc>
+		</adres>
+		<kontakt>
+			<pozycja typ="tel">(22) 765-24-31</pozycja>
+			<pozycja typ="kom">606-654-827</pozycja>
+			<pozycja typ="zdjecie">zdjecie.jpg</pozycja>
+			<pozycja typ="mail">example@mail.com</pozycja>
+		</kontakt>
+		<stan_cywilny>panna</stan_cywilny>
+	</dane_osobowe>
+	<wyksztalcenie>
+		<pozycja od="1998" do="2002">
+			<instytucja>Wyższa Szkoła Informatyki Stosowanej i Zarządzania - Warszawa</instytucja>
+			<dyplom>Inżynier</dyplom>
+		</pozycja>
+		<pozycja od="1994" do="1998">
+			<instytucja>Społeczne Liceum Ogólnokształcące im. Sybiraków - Siedlce</instytucja>
+			<dyplom>Matura</dyplom>
+		</pozycja>
+	</wyksztalcenie>
+	<doswiadczenie_zawodowe>
+		<pozycja od="2002" do="dziś">
+			<instytucja>Warszawskie Centrum Konferencyjne</instytucja>
+			<stanowisko>Kierownik działu IT</stanowisko>
+			<obowiazki>
+				<pozycja>Koordynacja prac zespołu wsparcia technicznego</pozycja>
+				<pozycja>Zakupy dotyczące  oprogramowania oraz sprzętu komputerowego</pozycja>
+				<pozycja>Osobiste prowadzanie szkoleń pracowniczych dla zespołu IT</pozycja>
+			</obowiazki>
+		</pozycja>
+		<pozycja od="2000" do="2002">
+			<instytucja>Urząd Gminy Warszawa-Bemowo</instytucja>
+			<stanowisko>Specjalista działu IT</stanowisko>
+			<obowiazki>
+				<pozycja>Wdrażanie systemów informatycznych</pozycja>
+				<pozycja>Szkolenia pracowników</pozycja>
+			</obowiazki>
+		</pozycja>
+		<pozycja od="1996" do="2000">
+			<instytucja>Sklep komputerowy Tech-Media</instytucja>
+			<stanowisko>Konsultant-sprzedawca</stanowisko>
+			<obowiazki>
+				<pozycja>Praca w dziale sprzedaży</pozycja>
+			</obowiazki>
+		</pozycja>
+	</doswiadczenie_zawodowe>
+	<szkolenia>
+		<pozycja data="2002">
+			<instytucja>Wyższa Szkoła Pzychlogii Społecznej</instytucja>
+			<nazwa>Kurs zarządzania zasobami ludzkimi</nazwa>
+			<typ>Studia podyplomowe</typ>
+		</pozycja>
+		<pozycja data="2001">
+			<instytucja>Datex - software</instytucja>
+			<nazwa>Kurs wdrażania systemów CRM</nazwa>
+			<typ>Warsztat</typ>
+		</pozycja>
+		<pozycja data="2000">
+			<instytucja>Datex - software</instytucja>
+			<nazwa>Kurs wdrażania systemów CRM</nazwa>
+			<typ>Warsztat</typ>
+		</pozycja>
+	</szkolenia>
+	<zainteresowania>
+		<pozycja typ="zawodowe">Zarządznie zasobami ludzkimi</pozycja>
+		<pozycja typ="prywatne">Modelarstwo kolejowe</pozycja>
+		<pozycja typ="prywatne">Wspinaczka górska</pozycja>
+	</zainteresowania>
+</cv>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<?xml-stylesheet type="text/xsl" href="zestawienie.xsl"?>
+	<tozsamosc>
+		<osoba nr="1">
+			<imie>Jan</imie>
+			<nazwisko>Kowalski</nazwisko>
+			<miasto>Warszawa</miasto>
+		</osoba>
+		<osoba nr="2">
+			<imie>Marek</imie>
+			<nazwisko>Nowak</nazwisko>
+			<miasto>Sopot</miasto>
+		</osoba>
+		<osoba nr="3">
+			<imie>Julisz</imie>
+			<nazwisko>Braun</nazwisko>
+			<miasto>Gliwice</miasto>
+		</osoba>
+		<osoba nr="4">
+			<imie>Henryk</imie>
+			<nazwisko>Polski</nazwisko>
+			<miasto>Szczecin</miasto>
+		</osoba>
+	</tozsamosc>

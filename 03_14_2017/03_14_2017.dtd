@@ -1,0 +1,54 @@
+ <!ELEMENT lista (dany_osobowy, adres, kontakt, wyksztalcenie, jezyki_obce, rodzaj_ukonczenej_aplikacji, aktywnosc_zawodowa, forma_wykonania_zawodu, specjalizacja, kontakt_do_osoby)>
+        <!ELEMENT dany_osobowy (imie+, nazwisko+, data, m_urodzenia,nip,pesel,plec,stan+,nr_wpisu)>
+            <!ELEMENT nazwisko (#PCDATA)>
+                <!ATTLIST nazwisko type CDATA #IMPLIED>
+            <!ELEMENT imie (#PCDATA)>
+                <!ATTLIST imie nr CDATA #IMPLIED>
+                <!ATTLIST imie type CDATA #IMPLIED>
+            <!ELEMENT data (rok,miesiac,dzien)>
+                <!ELEMENT rok (#PCDATA)>
+                <!ELEMENT miesiac (#PCDATA)>
+                <!ELEMENT dzien (#PCDATA)>
+            <!ELEMENT m_urodzenia (#PCDATA)>
+            <!ELEMENT nip (#PCDATA)>
+            <!ELEMENT pesel (#PCDATA)>
+            <!ELEMENT plec (#PCDATA)>
+            <!ELEMENT stan (#PCDATA)>
+            <!ELEMENT nr_wpisu (#PCDATA)>
+        <!ELEMENT adres (zameldowania,zamieszkania,korespondercyjny)>
+            <!ELEMENT zameldowania (ulica,dom,lokal,miasto,kod,panstwo)>
+                <!ELEMENT ulica (#PCDATA)>
+                <!ELEMENT dom (#PCDATA)>
+                <!ELEMENT lokal (#PCDATA)>
+                <!ELEMENT miasto (#PCDATA)>
+                <!ELEMENT kod (#PCDATA)>
+                <!ELEMENT panstwo (#PCDATA)>
+            <!ELEMENT zamieszkania (ulica,dom,lokal,miasto,kod)>
+            <!ELEMENT korespondercyjny (ulica,dom,lokal,miasto,kod)>
+        <!ELEMENT kontakt (tel+,mail)>
+                <!ELEMENT tel (#PCDATA)>
+                    <!ATTLIST tel nr CDATA #IMPLIED>
+                    <!ATTLIST tel type CDATA #IMPLIED>
+                <!ELEMENT mail (#PCDATA)>
+        <!ELEMENT wyksztalcenie (tytul+,ukonczone_uczelnie+)>
+                <!ELEMENT tytul (#PCDATA)>
+                <!ELEMENT ukonczone_uczelnie (#PCDATA)>
+                    <!ATTLIST ukonczone_uczelnie nr CDATA #REQUIRED>
+        <!ELEMENT jezyki_obce (jezyk)>
+                <!ELEMENT jezyk (#PCDATA)>
+                    <!ATTLIST jezyk stopien CDATA #REQUIRED>
+                    <!ATTLIST jezyk nr CDATA #REQUIRED>
+        <!ELEMENT rodzaj_ukonczenej_aplikacji (#PCDATA)>
+        <!ELEMENT aktywnosc_zawodowa (#PCDATA)>
+        <!ELEMENT forma_wykonania_zawodu (#PCDATA)>
+        <!ELEMENT specjalizacja (#PCDATA)>
+            <!ATTLIST specjalizacja nr CDATA #REQUIRED>
+        <!ELEMENT kontakt_do_osoby (kancelaria,filia,mejsce_pracy)>
+            <!ELEMENT kancelaria (nazwa,ulica,dom,lokal,miasto,kod,tel,fax,data_otwarcia)>
+                <!ELEMENT nazwa (#PCDATA)>
+                <!ELEMENT fax (#PCDATA)>
+                <!ELEMENT data_otwarcia (#PCDATA)>
+            <!ELEMENT filia (nazwa,ulica,dom,lokal,miasto,kod,tel,fax,data_otwarcia,data_wpisu,numer_rejestru,stan)>
+                <!ELEMENT data_wpisu (rok,miesiac,dzien)>
+                <!ELEMENT numer_rejestru (#PCDATA)>
+                <!ELEMENT mejsce_pracy (nazwa,ulica,dom,lokal,miasto,kod,tel,fax,data_otwarcia)>
